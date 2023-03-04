@@ -1,0 +1,58 @@
+body {
+display: flex;
+text-align: left;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+img {
+    width: 200px;
+}
+#product-description{
+    margin-left: 20px;
+    
+}
+.btn {
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    width: 250px;
+    margin-top: 40px;
+    position: absolute;
+    left: 230px;
+}
+
+p {
+    font-size: 14px;
+}
+p1 {
+    font-size:20px;
+    color: green;
+}
+s {
+color: black;
+font-size: small;
+}
+h1{
+    font-family: Fraunces;
+}
+h{
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+      width: 375px;
+      margin: 0 auto;
+    }
+  }
+  @media only screen and (min-width: 1440px) {
+    body {
+      width: 1440px;
+      margin: 0 auto;
+    }
+  }
+  
+
+    
